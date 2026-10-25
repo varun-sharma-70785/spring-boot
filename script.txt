@@ -1,0 +1,33 @@
+Press Ctrl + Shift + P-->Spring Initializr-->Spring Initializr: Create a Maven Project
+
+/**Important configs*/
+Setting Value
+Project Maven
+Language        Java
+Spring Boot     A stable version offered by the wizard
+Group Id        com.example
+Artifact Id     demo
+Packaging       Jar
+Java    17 or 21, depending on your installed JDK and the Spring Boot version
+Dependencies    Spring Web
+
+./mvnw spring-boot:run
+
+vim
+└── src
+    └── main
+        └── java
+            └── com
+                └── vim
+                    └── vim
+                        └── VimApplication.java
+
+vim
+ └── src
+     └── main
+         └── resources
+             └── application.properties
+
+
+whenever u add new dependecy
+./mvnw clean compile
